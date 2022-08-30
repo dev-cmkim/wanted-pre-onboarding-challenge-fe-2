@@ -1,10 +1,35 @@
-
 /**
- * "Hello {이름}"을 반환하는 메소드
- *
- * @param {string} name 사용자가 반환하길 원하는 이름을 출력합니다.
- * @returns {string} Hello + name
+ * @class
+ * @constructor
+ * @public
  */
- function hello(name) {
-    return "Hello " + name + "!";
-  }
+ class Todo {}
+
+ /**
+  *
+  * @param {{
+  *  내용:String,
+  *  완료여부: Boolean,
+  *  카테고리: String,
+  *  [태그들]: String
+  * }} todo
+  */
+ function _create(todo) {}
+ 
+ /**
+  *
+  * @param {String} todoId
+  */
+ function _read(todoId) {}
+ 
+ /**
+  *
+  * @param {String} todoId
+  */
+ function _update(todoId) {}
+ 
+ /**
+  *
+  * @param {String} todoId
+  */
+ function _delete(todoId) {}
